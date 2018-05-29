@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Pavel Tarasenko"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/me.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Sydney, NSW"
   email            : "pavel.tarasenko.au@gmail.com"
