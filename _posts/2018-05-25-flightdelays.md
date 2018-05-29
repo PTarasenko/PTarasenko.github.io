@@ -16,10 +16,12 @@ mathjax: "true"
 <p>
 <p>
 <b>On this graph I clearly can see how many delays and their length each Aircompany have</b>
+<p>
 <img src="/images/flightdelays/del1.png">
 <p>
 <p>
 <b>Another very interesting thing that length of delays on departure longer than delays on arrival</b>
+<p>
 <img src="/images/flightdelays/del2.png">
 
 
