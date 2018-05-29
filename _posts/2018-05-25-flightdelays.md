@@ -1,12 +1,13 @@
 ---
-title: "Machine Learning Project: Flight Delays"
+title: "Flight Delays"
 date: 2018-05-28
-tags: [machine learning, data science, classification]
-header:
-  image: "/images/flightdelays/plane1.jpg"
-excerpt: "Machine Learning, Flight Delays, Data Science"
+#tags: [machine learning, data science, classification]
+#header:
+#  image: "/images/flightdelays/plane1.jpg"
+#excerpt: "Machine Learning, Flight Delays, Data Science"
 mathjax: "true"
 ---
+<img scr="/images/flightdelays/plane1.jpg" alt="">
 
 # H1 Heading
 
