@@ -7,7 +7,7 @@ date: 2018-05-28
 #excerpt: "Machine Learning, Flight Delays, Data Science"
 mathjax: "true"
 ---
-<img src="/images/flightdelays/plane1.jpg">
+<img src="/images/flightdelays/plane.jpg">
 
 # H1 Heading
 
