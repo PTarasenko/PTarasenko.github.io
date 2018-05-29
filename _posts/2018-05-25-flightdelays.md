@@ -1,5 +1,5 @@
 ---
-title: "Flight Delays"
+title: "Flight Delays for Air Traffic Controllers"
 date: 2018-05-28
 #tags: [machine learning, data science, classification]
 #header:
@@ -7,7 +7,7 @@ date: 2018-05-28
 #excerpt: "Machine Learning, Flight Delays, Data Science"
 mathjax: "true"
 ---
-<img scr="/images/flightdelays/plane1.jpg" alt="">
+<img scr="flightdelays/plane1.jpg" alt="">
 
 # H1 Heading
 
