@@ -15,11 +15,11 @@ mathjax: "true"
 <font size="3">My question was if I could use only static information that was given to Air Traffic Controllers before the flight to predict flight delays and their length on arrival. The data I was working with was taken from "Bureau of Transportation Statistic" for January 2018. And I was focusing only on Domestic Flight in USA.</font>
 <p>
 <p>
-**On this graph I clearly can see how many delays and their length each Aircompany have**
+<b>On this graph I clearly can see how many delays and their length each Aircompany have</b>
 <img src="/images/flightdelays/del1.png">
 <p>
 <p>
-**Another very interesting thing that length of delays on departure longer than delays on arrival**
+<b>Another very interesting thing that length of delays on departure longer than delays on arrival</b>
 <img src="/images/flightdelays/del2.png">
 
 
