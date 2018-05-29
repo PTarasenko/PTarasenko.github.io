@@ -9,6 +9,26 @@ mathjax: "true"
 ---
 <img src="/images/flightdelays/plane.jpg">
 
+Now days is very important for the Air Traffic Controllers to be more efficient in organizing ground servicing in airports. With knowing about upcoming delays on arrival, they can plan their ground servicing at airdrome in more productive way. For example they could start work with another aircraft during that time. 
+
+My question was if I could use only static information that was given to Air Traffic Controllers before the flight to predict flight delays and their length on arrival. The data I was working with was taken from "Bureau of Transportation Statistic" for January 2018. And I was focusing only on Domestic Flight in USA.
+
+
+**On this graph I clearly can see how many delays and their length each Aircompany have**
+
+<img src="/images/flightdelays/del1.png">
+
+**Another very interesting thing that length of delays on departure longer than delays on arrival**
+
+<img src="/images/flightdelays/del2.png">
+
+
+
+
+
+
+
+
 # H1 Heading
 
 ## H2 Heading
