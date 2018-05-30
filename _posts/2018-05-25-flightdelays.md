@@ -51,6 +51,12 @@ mathjax: "true"
 <font size="3">11. <b>Distance of the Flight:</b> Distance in miles between 2 points.
 <p>
 <font size="3"><u>First step with this predictors was:</u> I made categorical features from few of them e.g. flight number. I made 5 groups of flight number feature 1st was with 0-59 delays count, 2nd with 60-120 delays count and so on. Day of the week 7 categories.
+<br>
+<font size="3"><u>Second step was:</u> I converted all my categorical variables into Dummies. 
+<br>
+<font size="3"><u>Third step was:</u> I checked for Multicollinearity all my 602 features. Found 2 features which was highly correlated, and I decided to remove them.
+
+
 <p>
 <p>
 
