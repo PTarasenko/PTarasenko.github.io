@@ -72,7 +72,7 @@ mathjax: "true"
 <p>
 <font size="4"><b>Classification problem</b>
 <br>
-In this part I built 3 working models. All of the gave me good result, but leader between all of them is my RandomForest, if we look at <b>Confusion Matrix</b> we can see that I got good score
+<font size="3">In this part I built 3 working models. All of the gave me good result, but leader between all of them is my RandomForest, if we look at <b>Confusion Matrix</b> we can see that I got good score
 <br>
 <img src="/images/flightdelays/cm1.png">
 <p>
@@ -81,6 +81,10 @@ Here we can see <b>ROC AUC</b> scores for all 3 models, RandomForest on a better
 <p>
 Also <b>Feature Importance</b> shows us most important ones for this model
 <img src="/images/flightdelays/fi.png">
+<p>
+<font size="4"><b>Regression problem</b>
+<br>
+<font size="3">In this part as I mention before I use my variables in a different war rather than classification problem, I also create dummies. But the result was very poor, I tried LinearRegression, RidgeRegression, LassoRegression, ElasticNetRegression and RandomForestRegressor. 
 
 
 
