@@ -60,10 +60,10 @@ mathjax: "true"
 <p>
 <font size="3">Before I talk about the results, I wanted to talk about my Regression and Multi Classification problems. I used same features but use them in a different way to create categorical variables. As I was focusing on length of delay I created categories based on length of delays for each group. e.g. flight number. I made 4 groups: 1st was with delays in interval 1-28 min, 2nd with 28-56 min and so on. Also there are was many very long delays on arrival, so I decided to keep delays only up to 120 min. Those long delays unpredictable and could be caused by bad weather condition, brakedown etc.
 <p>
-Before
+<b>Before</b>
 <img src="/images/flightdelays/box1.jpg">
 <p>
-After
+<b>After</b>
 <img src="/images/flightdelays/box2.jpg">
 
 
