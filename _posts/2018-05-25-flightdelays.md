@@ -51,6 +51,8 @@ mathjax: "true"
 <font size="3">11. <b>Distance of the Flight:</b> Distance in miles between 2 points.
 <p>
 <font size="3">First step with this features was: I made categorical predictors from few of them e.g. flight number. I made 5 groups of flight number feature 1st was with 0-59 delays count, 2nd with 60-120 delays count and so on. Day of the week 7 categories.
+<p>
+<p>
 
 
 
