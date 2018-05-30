@@ -15,6 +15,7 @@ mathjax: "true"
 <font size="3">My question was if I could use only static information that was given to Air Traffic Controllers before the flight to predict flight delays and their length on arrival. The data I was working with was taken from "Bureau of Transportation Statistic" for January 2018. And I was focusing only on Domestic Flight in USA. Total records for this month I got around 550,000.</font>
 <p>
 <font size="3">During this project I worked with <b>Classification</b> problem to predict if delay going to happen. Also <b>Regression</b> problem and <b>Multi Classification</b> problems to predict length of delay. 
+<p>
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <p>
@@ -26,6 +27,7 @@ mathjax: "true"
 <b>Interesting thing that length of delays on departure longer than delays on arrival</b>
 <p>
 <img src="/images/flightdelays/del2.png">
+<p>
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="3"><b>The features that I decided to focus for prediction flight delays are:</b>
@@ -51,6 +53,7 @@ mathjax: "true"
 <font size="3">10. <b>Length of Flight:</b> Scheduled length of flight time.
 <br>
 <font size="3">11. <b>Distance of the Flight:</b> Distance in miles between 2 points.
+<p>
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="3"><u>First step with this predictors was:</u> I made categorical features from few of them e.g. flight number: I made 5 groups of flight number feature 1st was with 0-59 delays count, 2nd with 60-120 delays count and so on. Day of the week 7 categories.
@@ -74,6 +77,7 @@ mathjax: "true"
 <font size="4"><b><u>Results</u></b></font>
 <p>
 <font size="3"><u>Metrics and methods I used in this project was:</u> Accuracy, Logarithmic Loss, ROC AUC, Confusion Matrix, Features Importance.
+<p>
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="4"><b>Classification problem</b>
@@ -87,11 +91,13 @@ Here we can see <b>ROC AUC</b> scores for all 3 models, RandomForest on a better
 <p>
 Also <b>Feature Importance</b> shows us most important ones for this model
 <img src="/images/flightdelays/fi.png">
+<p>
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="4"><b>Regression problem</b>
 <br>
 <font size="3">In this part as I mentioned before I used my variables in a different way rather than like in classification problem, I also create dummies from them. But the result was very poor, I tried LinearRegression, RidgeRegression, LassoRegression, ElasticNetRegression and RandomForestRegressor. All of them gave me <b>R^2 score: 0.10</b> which is very low. The main reason why I got this score because I used only this static features which is not enough for Regression problem. I could probably use variables such as: length of delay on departure, actual flight time. But I was focusing on static features only. At this stage I decided back to Classification problem and create few intervals of time which I managed to predict. 
+<p>
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="4"><b>Multi Classification problem</b>
