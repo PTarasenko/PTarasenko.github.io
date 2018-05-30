@@ -50,13 +50,21 @@ mathjax: "true"
 <br>
 <font size="3">11. <b>Distance of the Flight:</b> Distance in miles between 2 points.
 <p>
-<font size="3"><u>First step with this predictors was:</u> I made categorical features from few of them e.g. flight number. I made 5 groups of flight number feature 1st was with 0-59 delays count, 2nd with 60-120 delays count and so on. Day of the week 7 categories.
+<font size="3"><u>First step with this predictors was:</u> I made categorical features from few of them e.g. flight number: I made 5 groups of flight number feature 1st was with 0-59 delays count, 2nd with 60-120 delays count and so on. Day of the week 7 categories.
 <br>
 <font size="3"><u>Second step was:</u> I converted all my categorical variables into Dummies. 
 <br>
 <font size="3"><u>Third step was:</u> I checked for Multicollinearity all my 602 features. Found 2 features which was highly correlated, and I decided to remove them.
 <p>
-<font size="3">To solve my classification problem I used 3 Models such as: LogisticRegression, DecisionTreeClassifier and RandomForestClassifire. Also I faced another problem as my data was high dimensional I couldn't use Models: SVM and KNN. Using PCA to reduce dimensionality from 600 to 400 and using models on reduced data I got a lower score. I think some relations was broken after I used PCA, that why I decided to stick with my data without reducing dimensionality.
+<font size="3">To solve my classification problem I used 3 Models such as: LogisticRegression, DecisionTreeClassifier and RandomForestClassifire. Also I faced another problem as my data was high dimensional I couldn't use Models: SVM and KNN. Using PCA to reduce dimensionality from 600 to 400 and using models on reduced data I got a lower score. I think some important relations was broken after I used PCA, that why I decided to stick with my data without reducing dimensionality.
+<p>
+<font size="3">Before I talk about the results, I wanted to talk about my Regression and Multi Classification problems. I used same features but use them in a different way to create categorical variables. As I was focusing on length of delay I created categories based on length of delays for each group. e.g. flight number. I made 4 groups: 1st was with delays in interval 1-28 min, 2nd with 28-56 min and so on. Also there are was many very long delays on arrival, so I decided to keep delays only up to 120 min. Those long delays unpredictable and could be caused by bad weather condition, brakedown etc.
+<p>
+<img src="/images/flightdelays/box1.png">
+<p>
+<img src="/images/flightdelays/box2.png">
+
+
 
 
 <p>
