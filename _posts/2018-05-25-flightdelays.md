@@ -66,7 +66,7 @@ mathjax: "true"
 <b>After</b>
 <img src="/images/flightdelays/box2.jpg">
 <p>
-<font size="4"><b><u>Results</u></b>
+<font size="4"><b><u>Results</u></b></font>
 <p>
 <font size="3"><u>Metrics and methods I used in this project was:</u> Accuracy, Logarithmic Loss, ROC AUC, Confusion Matrix, Features Importance.
 <p>
