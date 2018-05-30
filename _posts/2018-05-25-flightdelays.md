@@ -40,6 +40,16 @@ mathjax: "true"
 <br>
 <font size="3">6. <b>State Origin:</b> State of departure. Important feature. I have this 3 top features which was in top 10 all my models I used in first part. 
 <br>
+<font size="3">7. <b>State Destination:</b> State of destination.
+<br>
+<font size="3">8. <b>Departure Time:</b> I split time of departure into 4 groups night/morning/day/evening.
+<br>
+<font size="3">9. <b>Arrival Time:</b> I also split scheduled time of arrival into 4 groups night/morning/day/evening.
+<br>
+<font size="3">10. <b>Length of Flight:</b> Scheduled length of flight time.
+<br>
+<font size="3">11. <b>Distance of the Flight:</b> Distance in miles between 2 points.
+<br>
 
 
 
