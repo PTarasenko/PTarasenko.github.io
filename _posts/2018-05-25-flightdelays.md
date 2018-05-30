@@ -23,8 +23,15 @@ mathjax: "true"
 <b>Another very interesting thing that length of delays on departure longer than delays on arrival</b>
 <p>
 <img src="/images/flightdelays/del2.png">
-
-
+<p>
+The features that I decided to focus for prediction flight delays are:
+<p>
+1. <b>Day of the week:</b> Day of the flight departure (Mon - Sun)
+<p>
+2. <b>Airline Code:<b> Short name of Air Company. In total was <b>18 Air companies</b> recorded during that month.
+<p>
+3. <b>Tail Number:</b> It is like plate number on a car. In total was <b>5259 planes</b> recorded.
+<p>
 
 
 
