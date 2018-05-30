@@ -108,12 +108,10 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 <img src="/images/flightdelays/cm2.png">
 <p>
 <img src="/images/flightdelays/tree.jpg">
-
-
-
-
 <p>
-<p>
-<b>This blog still under construction. Thanks.</b>
+<font size="3">I got 11,000 right predictions for delays between 15-45 min. Also all models have a problem to predict 2nd class, even thou all of classes was in approximately same proportion.
 
+
+How is this models useful?
+This models could be used in real life after integrating it into Air Traffic Controllers system. And with given information for the upcoming flight could predict possible delays at airport of destination. Also to continue this project would be good idea to add weather data, feedback from passengers about airports etc.
 
