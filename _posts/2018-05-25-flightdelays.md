@@ -72,7 +72,7 @@ mathjax: "true"
 <p>
 <font size="4"><b>Classification problem</b>
 <br>
-<font size="3">In this part I built 3 working models. All of the gave me good result, but leader between all of them is my RandomForest, if we look at <b>Confusion Matrix</b> we can see that I got good score
+<font size="3">In this part I built 3 working models. All of them gave me good result, but leader between all of them is my RandomForest, if we look at <b>Confusion Matrix</b> we can see that I got good score
 <br>
 <img src="/images/flightdelays/cm1.png">
 <p>
@@ -84,7 +84,7 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 <p>
 <font size="4"><b>Regression problem</b>
 <br>
-<font size="3">In this part as I mention before I use my variables in a different war rather than classification problem, I also create dummies. But the result was very poor, I tried LinearRegression, RidgeRegression, LassoRegression, ElasticNetRegression and RandomForestRegressor. 
+<font size="3">In this part as I mentioned before I used my variables in a different way rather than like in classification problem, I also create dummies from them. But the result was very poor, I tried LinearRegression, RidgeRegression, LassoRegression, ElasticNetRegression and RandomForestRegressor. 
 
 
 
