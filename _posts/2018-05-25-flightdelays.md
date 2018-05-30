@@ -102,6 +102,9 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 <b>LogisticRegression</b> - 0.3642<br>
 <b>DecisionTreeClassifire</b> - 0.3591<br>
 <b>RandomForestClassifire</b> - 0.3671
+<p>
+<img src="/images/flightdelays/tree.jpg">
+<font size="3">
 
 
 
