@@ -130,5 +130,5 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 
 
 How is this models useful?
-This models could be used in real life after integrating it into Air Traffic Controllers system. And with given information for the upcoming flight could predict possible delays at airport of destination. Also to continue this project would be good idea to add weather data, feedback from passengers about airports etc. To check this project in detail you can find this on my GitHub. 
+This models could be used in real life after integrating it into Air Traffic Controllers system. And with given information for the upcoming flight could predict possible delays at airport of destination. Also to continue this project would be good idea to add weather data, feedback from passengers about airports etc. To check this project in detail you can find it on my GitHub. 
 
