@@ -34,8 +34,8 @@ mathjax: "true"
 <br>
 <font size="3">4. <b>Flight Number:</b> One of the most important features. In total was <i>6965 flight numbers</i> recorded for domestic flights.
 <br>
-
-
+<font size="3">5. <b>Origin Airport:</b> Airport from where plane will start his flight. Also very important feature.
+<br>
 
 
 
