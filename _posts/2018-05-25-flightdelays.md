@@ -28,9 +28,11 @@ mathjax: "true"
 <p>
 <font size="3">1. <b>Day of the week:</b> Day of the flight departure (Mon - Sun)
 <br>
-<font size="3">2. <b>Airline Code:</b> Short name of Air Company. In total was <b>18 Air companies</b> recorded during that month.
+<font size="3">2. <b>Airline Code:</b> Short name of Air Company. In total was *18 Air companies* recorded during that month.
 <br>
-<font size="3">3. <b>Tail Number:</b> It is like plate number on a car. In total was <b>5259 planes</b> recorded.
+<font size="3">3. <b>Tail Number:</b> It is like plate number on a car. In total was *5259 planes* recorded.
+<br>
+<font size="3">4. <b>Flight Number:</b> One of the most important features. In total was *6965 flight numbers* recorded for domestic flights.
 <br>
 
 
