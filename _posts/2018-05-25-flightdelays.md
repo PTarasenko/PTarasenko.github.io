@@ -66,10 +66,21 @@ mathjax: "true"
 <b>After</b>
 <img src="/images/flightdelays/box2.jpg">
 <p>
-<b><u>Results</u></b>
+<font size="4"><b><u>Results</u></b>
 <p>
 <font size="3"><u>Metrics and methods I used in this project was:</u> Accuracy, Logarithmic Loss, ROC AUC, Confusion Matrix, Features Importance.
-
+<p>
+<font size="4"><b>Classification problem</b>
+<br>
+In this part I built 3 working models. All of the gave me good result, but leader between all of them is my RandomForest, if we look at <b>Confusion Matrix</b> we can see that I got good score
+<br>
+<img src="/images/flightdelays/cm1.png">
+<p>
+Here we can see <b>ROC AUC</b> scores for all 3 models, RandomForest on a better shape 0.9831. 
+<img src="/images/flightdelays/roc.png">
+<p>
+Also <b>Feature Importance</b> shows us most important ones for this model
+<img src="/images/flightdelays/fi.png">
 
 
 
