@@ -103,8 +103,12 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 <b>DecisionTreeClassifire</b> - 0.3591<br>
 <b>RandomForestClassifire</b> - 0.3671
 <p>
+<font size="3">As we can see RFC has a higher score but based on Confusion Matrix and that I was focusing to predict length of delays more than 15 min I choose DesisionTreeClassifire in this case
+<p>
+<img src="/images/flightdelays/cm2.png">
+<p>
 <img src="/images/flightdelays/tree.jpg">
-<font size="3">
+
 
 
 
