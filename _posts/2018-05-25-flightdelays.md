@@ -92,7 +92,16 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 <p>
 <img src="/images/flightdelays/int.jpg">
 <p>
-<font size="3">My goal was to get more right prediction results in length of delays which is more than 15 min because this information more important for the Air Traffic Controllers at the airport of destination.
+<font size="3">My goal was to get more right prediction results in length of delays which is more than 15 min because this information more important for the Air Traffic Controllers at the airport of destination.<br>
+My base line for 4 classes was:<br>
+0 - 0.1780<br>
+1 - 0.1352<br>
+2 - 0.2333<br>
+3 - 0.1326<br>
+<font size="3">And test scores for 3 my models was:<br>
+LogisticRegression - 0.3642<br>
+DecisionTreeClassifire - 0.3591<br>
+RandomForestClassifire - 0.3671
 
 
 
