@@ -65,6 +65,8 @@ mathjax: "true"
 <p>
 <b>After</b>
 <img src="/images/flightdelays/box2.jpg">
+<p>
+<b><u>Results</b></u>
 
 
 
