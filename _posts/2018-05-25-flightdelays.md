@@ -55,6 +55,8 @@ mathjax: "true"
 <font size="3"><u>Second step was:</u> I converted all my categorical variables into Dummies. 
 <br>
 <font size="3"><u>Third step was:</u> I checked for Multicollinearity all my 602 features. Found 2 features which was highly correlated, and I decided to remove them.
+<p>
+<font size="3">To solve my classification problem I used 3 Models such as: LogisticRegression, DecisionTreeClassifier and RandomForestClassifire. Also I faced another problem as my data was high dimensional I couldn't use Models: SVM and KNN. Using PCA to reduce dimensionality from 600 to 400 and using models on reduced data I got a lower score. I think some relations was broken after I used PCA, that why I decided to stick with my data without reducing dimensionality.
 
 
 <p>
