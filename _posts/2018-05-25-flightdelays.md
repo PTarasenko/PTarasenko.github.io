@@ -31,6 +31,7 @@ mathjax: "true"
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="3"><b>The features that I decided to focus for prediction flight delays are:</b>
+<p>
 <br>
 <font size="3">1. <b>Day of the week:</b> Day of the flight departure (Mon - Sun)
 <br>
@@ -63,6 +64,7 @@ mathjax: "true"
 <font size="3"><u>Third step was:</u> I checked for Multicollinearity all my 602 features. Found 2 features which was highly correlated, and I decided to remove them.
 <p>
 <font size="3">To solve my classification problem I used 3 Models such as: LogisticRegression, DecisionTreeClassifier and RandomForestClassifire. Also I faced another problem as my data was high dimensional I couldn't use Models: SVM and KNN. Using PCA to reduce dimensionality from 600 to 400 and using models on reduced data I got a lower score. I think some important relations was broken after I used PCA, that why I decided to stick with my data without reducing dimensionality.
+<p>
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="3">Before I talk about the results, I wanted to talk about my Regression and Multi Classification problems. I used same features but use them in a different way to create categorical variables. As I was focusing on length of delay I created categories based on length of delays for each group. e.g. flight number. I made 4 groups: 1st was with delays in interval 1-28 min, 2nd with 28-56 min and so on. Also there are was many very long delays on arrival, so I decided to keep delays only up to 120 min. Those long delays unpredictable and could be caused by bad weather condition, brakedown etc.
@@ -72,6 +74,7 @@ mathjax: "true"
 <p>
 <b>After</b>
 <img src="/images/flightdelays/box2.jpg">
+<p>
 <img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="4"><b><u>Results</u></b></font>
