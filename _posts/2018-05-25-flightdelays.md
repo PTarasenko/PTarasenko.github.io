@@ -22,7 +22,7 @@ mathjax: "true"
 <img src="/images/flightdelays/del1.png">
 <p>
 <p>
-<b>Another very interesting thing that length of delays on departure longer than delays on arrival</b>
+<b>Very interesting thing that length of delays on departure longer than delays on arrival</b>
 <p>
 <img src="/images/flightdelays/del2.png">
 <p>
