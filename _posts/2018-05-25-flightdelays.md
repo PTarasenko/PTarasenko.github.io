@@ -15,6 +15,7 @@ mathjax: "true"
 <font size="3">My question was if I could use only static information that was given to Air Traffic Controllers before the flight to predict flight delays and their length on arrival. The data I was working with was taken from "Bureau of Transportation Statistic" for January 2018. And I was focusing only on Domestic Flight in USA. Total records for this month I got around 550,000.</font>
 <p>
 <font size="3">During this project I worked with <b>Classification</b> problem to predict if delay going to happen. Also <b>Regression</b> problem and <b>Multi Classification</b> problems to predict length of delay. 
+<img src="/images/flightdelays/lin.jpg">
 <p>
 <p>
 <b>On this graph we can see how many delays and their length each Aircompany have</b>
@@ -113,5 +114,5 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 
 
 How is this models useful?
-This models could be used in real life after integrating it into Air Traffic Controllers system. And with given information for the upcoming flight could predict possible delays at airport of destination. Also to continue this project would be good idea to add weather data, feedback from passengers about airports etc.
+This models could be used in real life after integrating it into Air Traffic Controllers system. And with given information for the upcoming flight could predict possible delays at airport of destination. Also to continue this project would be good idea to add weather data, feedback from passengers about airports etc. To check this project in detail you can find this on my GitHub. 
 
