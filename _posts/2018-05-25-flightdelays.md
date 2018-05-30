@@ -17,7 +17,7 @@ mathjax: "true"
 <font size="3">During this project I worked with <b>Classification</b> problem to predict if delay going to happen. Also <b>Regression</b> problem and <b>Multi Classification</b> problems to predict length of delay. 
 <p>
 <p>
-<b>On this graph I clearly can see how many delays and their length each Aircompany have</b>
+<b>On this graph we can see how many delays and their length each Aircompany have</b>
 <p>
 <img src="/images/flightdelays/del1.png">
 <p>
@@ -62,49 +62,3 @@ mathjax: "true"
 
 
 
-# H1 Heading
-
-## H2 Heading
-
-### H3 Heading
-
-Here's some basic text.
-
-And here's some *italics*
-
-Here's some **bold**
-
-What about a [link](https://github.com/PTarasenko)?
-
-
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
-
-
-Here's a number list:
-
-1. first
-2. second
-3. third
-
-Python code block:
-'''python
-     import numpy as np
-
-     def test_function(x, y):
-       z = np.sum(x,y)
-       return z
-'''
-
-here's some inline code 'x+y'.
-
-here's an image:
-<img scr="123.jpg" alt="something cool">
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
