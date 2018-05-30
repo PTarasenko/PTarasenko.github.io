@@ -42,14 +42,15 @@ mathjax: "true"
 <br>
 <font size="3">7. <b>State Destination:</b> State of destination.
 <br>
-<font size="3">8. <b>Departure Time:</b> I split time of departure into 4 groups night/morning/day/evening.
+<font size="3">8. <b>Departure Time:</b> I split time of departure into 4 groups: night/morning/day/evening.
 <br>
-<font size="3">9. <b>Arrival Time:</b> I also split scheduled time of arrival into 4 groups night/morning/day/evening.
+<font size="3">9. <b>Arrival Time:</b> I also split scheduled time of arrival into 4 groups: night/morning/day/evening.
 <br>
 <font size="3">10. <b>Length of Flight:</b> Scheduled length of flight time.
 <br>
 <font size="3">11. <b>Distance of the Flight:</b> Distance in miles between 2 points.
-<br>
+<p>
+<font size="3">First step with this features was: I made categorical predictors from few of them e.g. flight number. I made 5 groups of flight number feature 1st was with 0-59 delays count, 2nd with 60-120 delays count and so on. Day of the week 7 categories.
 
 
 
