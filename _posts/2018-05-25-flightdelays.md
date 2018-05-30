@@ -25,14 +25,14 @@ mathjax: "true"
 <img src="/images/flightdelays/del2.png">
 <p>
 <font size="3"><b>The features that I decided to focus for prediction flight delays are:</b>
-<p>
+<br>
 <font size="3">1. <b>Day of the week:</b> Day of the flight departure (Mon - Sun)
 <br>
-<font size="3">2. <b>Airline Code:</b> Short name of Air Company. In total was *18 Air companies* recorded during that month.
+<font size="3">2. <b>Airline Code:</b> Short name of Air Company. In total was <i>18 Air companies</i> recorded during that month.
 <br>
-<font size="3">3. <b>Tail Number:</b> It is like plate number on a car. In total was *5259 planes* recorded.
+<font size="3">3. <b>Tail Number:</b> It is like plate number on a car. In total was <i>5259 planes</i> recorded.
 <br>
-<font size="3">4. <b>Flight Number:</b> One of the most important features. In total was *6965 flight numbers* recorded for domestic flights.
+<font size="3">4. <b>Flight Number:</b> One of the most important features. In total was <i>6965 flight numbers</i> recorded for domestic flights.
 <br>
 
 
