@@ -84,7 +84,7 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 <p>
 <font size="4"><b>Regression problem</b>
 <br>
-<font size="3">In this part as I mentioned before I used my variables in a different way rather than like in classification problem, I also create dummies from them. But the result was very poor, I tried LinearRegression, RidgeRegression, LassoRegression, ElasticNetRegression and RandomForestRegressor. 
+<font size="3">In this part as I mentioned before I used my variables in a different way rather than like in classification problem, I also create dummies from them. But the result was very poor, I tried LinearRegression, RidgeRegression, LassoRegression, ElasticNetRegression and RandomForestRegressor. All of them gave me <b>R^2 score: 0.10</b> which is very low. The main reason why I got this score because I used only this static features which is not enough for Regression problem. I could probably use variables such as: length of delay on departure, actual flight time. But I was focusing on static features only. At this stage I decided back to Classification problem and create few intervals of time which I managed to predict. 
 
 
 
