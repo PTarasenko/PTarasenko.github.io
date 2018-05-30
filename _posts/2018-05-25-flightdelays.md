@@ -26,6 +26,7 @@ mathjax: "true"
 <b>Interesting thing that length of delays on departure longer than delays on arrival</b>
 <p>
 <img src="/images/flightdelays/del2.png">
+<img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="3"><b>The features that I decided to focus for prediction flight delays are:</b>
 <br>
@@ -50,6 +51,7 @@ mathjax: "true"
 <font size="3">10. <b>Length of Flight:</b> Scheduled length of flight time.
 <br>
 <font size="3">11. <b>Distance of the Flight:</b> Distance in miles between 2 points.
+<img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="3"><u>First step with this predictors was:</u> I made categorical features from few of them e.g. flight number: I made 5 groups of flight number feature 1st was with 0-59 delays count, 2nd with 60-120 delays count and so on. Day of the week 7 categories.
 <br>
@@ -58,6 +60,7 @@ mathjax: "true"
 <font size="3"><u>Third step was:</u> I checked for Multicollinearity all my 602 features. Found 2 features which was highly correlated, and I decided to remove them.
 <p>
 <font size="3">To solve my classification problem I used 3 Models such as: LogisticRegression, DecisionTreeClassifier and RandomForestClassifire. Also I faced another problem as my data was high dimensional I couldn't use Models: SVM and KNN. Using PCA to reduce dimensionality from 600 to 400 and using models on reduced data I got a lower score. I think some important relations was broken after I used PCA, that why I decided to stick with my data without reducing dimensionality.
+<img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="3">Before I talk about the results, I wanted to talk about my Regression and Multi Classification problems. I used same features but use them in a different way to create categorical variables. As I was focusing on length of delay I created categories based on length of delays for each group. e.g. flight number. I made 4 groups: 1st was with delays in interval 1-28 min, 2nd with 28-56 min and so on. Also there are was many very long delays on arrival, so I decided to keep delays only up to 120 min. Those long delays unpredictable and could be caused by bad weather condition, brakedown etc.
 <p>
@@ -66,10 +69,12 @@ mathjax: "true"
 <p>
 <b>After</b>
 <img src="/images/flightdelays/box2.jpg">
+<img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="4"><b><u>Results</u></b></font>
 <p>
 <font size="3"><u>Metrics and methods I used in this project was:</u> Accuracy, Logarithmic Loss, ROC AUC, Confusion Matrix, Features Importance.
+<img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="4"><b>Classification problem</b>
 <br>
@@ -82,10 +87,12 @@ Here we can see <b>ROC AUC</b> scores for all 3 models, RandomForest on a better
 <p>
 Also <b>Feature Importance</b> shows us most important ones for this model
 <img src="/images/flightdelays/fi.png">
+<img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="4"><b>Regression problem</b>
 <br>
 <font size="3">In this part as I mentioned before I used my variables in a different way rather than like in classification problem, I also create dummies from them. But the result was very poor, I tried LinearRegression, RidgeRegression, LassoRegression, ElasticNetRegression and RandomForestRegressor. All of them gave me <b>R^2 score: 0.10</b> which is very low. The main reason why I got this score because I used only this static features which is not enough for Regression problem. I could probably use variables such as: length of delay on departure, actual flight time. But I was focusing on static features only. At this stage I decided back to Classification problem and create few intervals of time which I managed to predict. 
+<img src="/images/flightdelays/lin.jpg">
 <p>
 <font size="4"><b>Multi Classification problem</b>
 <br>
