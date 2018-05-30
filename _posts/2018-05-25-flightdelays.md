@@ -91,7 +91,8 @@ Also <b>Feature Importance</b> shows us most important ones for this model
 <font size="3">First attempt was I created 8 intervals and got score which wasn't too bad but still getting many wrong predicted results. Then I reduce number of intervals to 4: 
 <p>
 <img src="/images/flightdelays/int.jpg">
-
+<p>
+<font size="3">My goal was to get more right prediction results in length of delays which is more than 15 min because this information more important for the Air Traffic Controllers at the airport of destination.
 
 
 
